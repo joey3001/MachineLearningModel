@@ -14,13 +14,13 @@ This is an end to end machine learning model that will predict whether or not lo
 
 
 ### Tools for MVP
-Anaconda - Python Package Manager 
-pandas
-matplotlib
-scikit-learn
-numpy 
-ipython
-scipy
+* Anaconda - Python Package Manager 
+* pandas
+* matplotlib
+* scikit-learn
+* numpy 
+* ipython
+* scipy
 
 
 ### Stretch Goals
