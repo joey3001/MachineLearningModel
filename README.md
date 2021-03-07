@@ -58,13 +58,13 @@ If you have an issue, reach out to me at josephnero111@gmail.com
 
 ## 🛠️ Technologies Used
 
-Anaconda - Python Package Manager 
-pandas
-matplotlib
-scikit-learn
-numpy 
-ipython
-scipy
+* Anaconda - Python Package Manager 
+* pandas
+* matplotlib
+* scikit-learn
+* numpy 
+* ipython
+* scipy
 
 ### 📘 License
 
