@@ -26,5 +26,5 @@ This is an end to end machine learning model that will predict whether or not lo
 ### Stretch Goals
 * create a UI to visualize this process 
 * create a unique algorithm to train the model with
-Honestly, the whole thing is a bit of a stretch goal. 
+* Honestly, the whole thing is a bit of a stretch goal. 
 
