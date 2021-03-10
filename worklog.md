@@ -16,3 +16,13 @@ Break
 
 3/5/2021
 
+8:30am - 11:30am try to figure out how to download data needed from the Fannie Mae website 
+
+11:30am - 12:30pm break and eat lunch 
+
+12:30pm - 2:30pm got data downloaded and started creating Jupiter notebooks to practice data cleaning 
+
+2:30pm - 4:30pm realize that working with such large data sets is extremely cumbersome. Trim data down to a reasonable level and experiment with that. 
+
+4:30pm - 5:30pm get anaconda set up in vscode and start building project structure. 
+
