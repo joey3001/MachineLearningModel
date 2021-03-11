@@ -82,6 +82,19 @@ acquire loans that will eventually be foreclosed upon.
 
 4. The output will be presented to the terminal. 
 
+#### Additional work 
+
+1. Implement other machine learning models to compare their accuracies. Including but not limited to : 
+
+    - Gradient Boosting
+    - Random Forest 
+    - Decision Tress 
+    - Support Vector Machine (SVM)
+
+2. Perform sensitivity analysis to determine which variable effects the output most significantly. 
+
+3. Add more data to achieve a better result. 
+
 #### To view the code in the VSCode editor using commands in the terminal :  
 
 1. Navigate to the project's root directory with the cd command. 
