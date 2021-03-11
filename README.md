@@ -24,7 +24,7 @@ This is an end to end machine learning model that will predict whether or not lo
 
 #### Intention of this project 
 
-This project will take in a variety of loan data to predict if loans will be foreclosed on or not. 
+This project will take in a variety of loan data to predict if loans will be foreclosed on or not using binary logistic regression. 
 
 To do this we take data about the loan and whether or not it was foreclosed on and formated it in a way that
 can be used to train a machine learning model. 
