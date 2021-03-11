@@ -10,8 +10,8 @@ This is an end to end machine learning model that will predict whether or not lo
 ## 🔧 Setup/Installation Requirements
 #### If you have difficulty following any of the steps/instructions listed below, please contact me at josephnero111@gmail.com 
 
-1. Git Bash (or another terminal program) & Git.  
-    - To clone the repository from Github using git commands in the terminal, you need a terminal program & Git. For Windows OS, I recommend the Git Bash terminal program. Installing Git Bash will also install Git. 
+1. cmd prompt & Git.  
+    - To clone the repository from Github using git commands in the terminal, you need a terminal program & Git. For the conda environment to work, you need to use the cmd prompt on Windows. 
 
 2. VSCode (or another code editor)
     - To view/edit this code, you need a code editor. I recommend VSCode. 
@@ -22,6 +22,33 @@ This is an end to end machine learning model that will predict whether or not lo
 
     You can download Anaconda [here.](https://www.anaconda.com/products/individual) Anaconda is a Python package manager that comes preloaded with the various packages we will need to run the model. 
 
+#### Intention of this project 
+
+This project will take in a variety of loan data to predict if loans will be foreclosed on or not. 
+
+To do this we take data about the loan and whether or not it was foreclosed on and formated it in a way that
+can be used to train a machine learning model. 
+This includes the following steps: 
+
+1. Applying headers to data tables for ease of reading and organization. 
+
+2. Determining the data neccesary for your machine learning model to function. In our case, 
+   we don't need any performance data apart from whether or not the loan was forelosed on. As such, 
+   we will have to go into our performance data set and extract only this relevant piece. On the other hand, 
+   we want all of the acquisition data possible as to strengthen the accuracy of our model. 
+
+3. converting all possible variable types to numbers, as machine learning models can only work with 
+   numerical data. 
+
+4. It also includes splitting your data set into a "training" set and a "testing" set. 
+   You use the training set to train the model, and you use the testing set to evalute the model's accuracy. 
+   Without this step, your model will test well artificially, as it's not 
+   actually attempting to predict new values. 
+
+5. 
+
+
+
 
 #### To clone this project using git commands in the terminal : 
 
@@ -31,7 +58,19 @@ This is an end to end machine learning model that will predict whether or not lo
 
 #### To set up the machine learning model and run the project using terminal commands, follow the instructions below : 
 
-1. To be filled out later (once I figure it out!)
+1. Enter the loan-prediction directory using cd commands. Conda requires commands to be entered in a cmd prompt terminal. Git bash will not work.  
+
+2. The base conda environment contains the required packages. Activate the environment with the following command:
+
+            conda activate base 
+
+3. Run the scripts in this order: assemble.py => annotate.py => predict.py by entering the following commands: 
+
+            python assemble.py 
+            python annotate.py
+            python predict.py 
+
+4. The output will be presented to the terminal. 
 
 #### To view the code in the VSCode editor using commands in the terminal :  
 
