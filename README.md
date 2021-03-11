@@ -45,10 +45,20 @@ This includes the following steps:
    Without this step, your model will test well artificially, as it's not 
    actually attempting to predict new values. 
 
-5. 
+#### Interpreting the output 
 
+The following output is delivered by the project: 
 
+            Accuracy Score: .5 
+            False Negatives: .4 
+            False Postives: .4
 
+The Accuracy score is the percentage of times the model is able to predict the loan's future foreclosure status accurately. 
+The False Negatives Score is the percentage of times a model predicts that the loan will not be foreclosed on, but it is. 
+The False Positives Score is the percentage of times a model predicts that the loan will be foreclosed on, but it is not. 
+
+For our purposes, a false negative score is more important than a false positive score, as we do not want to 
+acquire loans that will eventually be foreclosed upon. 
 
 #### To clone this project using git commands in the terminal : 
 
